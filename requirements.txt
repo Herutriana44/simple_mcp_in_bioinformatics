@@ -1,0 +1,4 @@
+biopython>=1.85
+admet-ai
+mcp
+google-generativeai
