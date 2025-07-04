@@ -9,7 +9,7 @@ from Bio.Seq import Seq  # pip install biopython
 from Bio import Blast  # pip install biopython>=1.85
 
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyC3h0u2Vh9BDAqvodxB7NPwRVROXr4YYNM")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY")
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # --- Bioinformatics Tools ---
